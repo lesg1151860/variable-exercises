@@ -1,8 +1,8 @@
 #!/bin/bash
 
-directorio_origen="/home/UFPS/UFPS-6/variables"
-directorio_destino="/home/UFPS/UFPS-6/variables2"
+source_directory="/home/UFPS/UFPS-6/variables"
+destination_directory="/home/UFPS/UFPS-6/variables2"
 
-mv "$directorio_origen"/* "$directorio_destino/"
+mv "$source_directory"/* "$destination_directory/"
 
-echo "Todos los archivos han sido movidos a $directorio_destino"
+echo "All files were moved to  $destination_directory"
